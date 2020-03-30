@@ -1,0 +1,582 @@
+[
+  {
+    "category": "Science & Nature",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which of the following bones is not in the leg?",
+    "correctAnswer": "Radius",
+    "incorrectAnswers": [
+      "Patella",
+      "Tibia",
+      "Fibula "
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "According to the BBPA, what is the most common pub name in the UK?",
+    "correctAnswer": "Red Lion",
+    "incorrectAnswers": [
+      "Royal Oak",
+      "White Hart",
+      "King&#039;s Head"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "The music group Daft Punk got their name from a negative review they recieved.",
+    "correctAnswer": "True",
+    "incorrectAnswers": [
+      "False"
+    ]
+  },
+  {
+    "category": "Vehicles",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which animal features on the logo for Abarth, the motorsport division of Fiat?",
+    "correctAnswer": "Scorpion",
+    "incorrectAnswers": [
+      "Snake",
+      "Bull",
+      "Horse"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "The Principality of Sealand is an unrecognized micronation off the coast of what country?",
+    "correctAnswer": "The United Kingdom",
+    "incorrectAnswers": [
+      "Japan",
+      "Austrailia",
+      "Argentina"
+    ]
+  },
+  {
+    "category": "Politics",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Who was the only president to not be in office in Washington D.C?",
+    "correctAnswer": "George Washington",
+    "incorrectAnswers": [
+      "Abraham Lincoln",
+      "Richard Nixon",
+      "Thomas Jefferson"
+    ]
+  },
+  {
+    "category": "Science: Computers",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What does GHz stand for?",
+    "correctAnswer": "Gigahertz",
+    "incorrectAnswers": [
+      "Gigahotz",
+      "Gigahetz",
+      "Gigahatz"
+    ]
+  },
+  {
+    "category": "Entertainment: Television",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What&#039;s Dr. Doofenshmirtz first name?",
+    "correctAnswer": "Heinz",
+    "incorrectAnswers": [
+      "Hans",
+      "Hank",
+      "Heidi"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Kuala Lumpur is the capital of which country?",
+    "correctAnswer": "Malaysia",
+    "incorrectAnswers": [
+      "Indonesia",
+      "Singapore",
+      "Thailand"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which of the following commercial vehicles from Grand Theft Auto IV did NOT reappear in Grand Theft Auto V?",
+    "correctAnswer": "Steed",
+    "incorrectAnswers": [
+      "Mule",
+      "Benson",
+      "Pony"
+    ]
+  },
+  {
+    "category": "Sports",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which nation hosted the FIFA World Cup in 2006?",
+    "correctAnswer": "Germany",
+    "incorrectAnswers": [
+      "United Kingdom",
+      "Brazil",
+      "South Africa"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which one of these artists appears in the album Deltron 3030?",
+    "correctAnswer": "Dan the Automater",
+    "incorrectAnswers": [
+      "Lamarr Kendrick",
+      "Danger Mouse",
+      "CeeLo Green"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In the Gamecube Version of &quot;Resident Evil&quot; what text document is open on the monitor of the computer in the Visual Data Room?",
+    "correctAnswer": "A GDC Document",
+    "incorrectAnswers": [
+      "Text Document on Herbs",
+      "Nothing",
+      "Document on B.O.Ws"
+    ]
+  },
+  {
+    "category": "Entertainment: Musicals & Theatres",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who wrote the award winning musical &quot;In The Heights&quot;?",
+    "correctAnswer": "Lin-Manuel Miranda",
+    "incorrectAnswers": [
+      "Steven Sondheim",
+      "Francis Scott Key",
+      "John Phillips Sousa"
+    ]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "For what reason would a spotted hyena &quot;laugh&quot;?",
+    "correctAnswer": "Nervousness",
+    "incorrectAnswers": [
+      "Excitement",
+      "Aggression",
+      "Exhaustion"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What country has a horizontal bicolor red and white flag?",
+    "correctAnswer": "Monaco",
+    "incorrectAnswers": [
+      "Bahrain",
+      "Malta",
+      "Liechenstein"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which musician has collaborated with American producer Porter Robinson and released the 2016 song &quot;Shelter&quot;?",
+    "correctAnswer": "Madeon",
+    "incorrectAnswers": [
+      "Mat Zo",
+      "deadmau5",
+      "Zedd"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "The average woman is 5 inches / 13 centimeters shorter than the average man.",
+    "correctAnswer": "True",
+    "incorrectAnswers": [
+      "False"
+    ]
+  },
+  {
+    "category": "Science: Computers",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "The open source program Redis is a relational database server.",
+    "correctAnswer": "False",
+    "incorrectAnswers": [
+      "True"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In what year were achivements added to Steam?",
+    "correctAnswer": "2007",
+    "incorrectAnswers": [
+      "2008",
+      "2009",
+      "2006"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which one of these Pink Floyd albums were also a movie?",
+    "correctAnswer": "The Wall",
+    "incorrectAnswers": [
+      "The Dark Side of the Moon",
+      "Wish You Were Here",
+      "Animals"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Capcom&#039;s survival horror title Dead Rising, canonically starts on what day of September 2006?",
+    "correctAnswer": "September 19th",
+    "incorrectAnswers": [
+      "September 21st",
+      "September 30th",
+      "September 14th"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which of these is NOT a playable character race in the video game &quot;Starbound&quot;?",
+    "correctAnswer": "Fenerox",
+    "incorrectAnswers": [
+      "Floran",
+      "Novakid",
+      "Hylotl"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which musical artist was NOT featured as playable avatars in the game &quot;DJ Hero&quot;?",
+    "correctAnswer": "Dr. Dre",
+    "incorrectAnswers": [
+      "DJ Shadow",
+      "Daft Punk",
+      "Grandmaster Flash"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which band released songs suchs as &quot;Rio&quot;, &quot;Girls on Film&quot;, and &quot;The Reflex&quot;?",
+    "correctAnswer": "Duran Duran",
+    "incorrectAnswers": [
+      "The Cure",
+      "New Order",
+      "Depeche Mode"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What company develops the Rock Band series of rhythm games?",
+    "correctAnswer": "Harmonix",
+    "incorrectAnswers": [
+      "Activision",
+      "Konami",
+      "Electronic Arts"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the name of the main character from the music video of &quot;Shelter&quot; by Porter Robinson and A-1 Studios?",
+    "correctAnswer": "Rin",
+    "incorrectAnswers": [
+      "Rem",
+      "Ren",
+      "Ram"
+    ]
+  },
+  {
+    "category": "Science & Nature",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Who made the discovery of X-rays?",
+    "correctAnswer": "Wilhelm Conrad R&ouml;ntgen",
+    "incorrectAnswers": [
+      "Thomas Alva Edison",
+      "James Watt",
+      "Albert Einstein"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "This trope refers to minor characters that are killed off to show how a monster works.",
+    "correctAnswer": "Red Shirt",
+    "incorrectAnswers": [
+      "Minions",
+      "Expendables",
+      "Cannon Fodder"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What year was Apple Inc. founded?",
+    "correctAnswer": "1976",
+    "incorrectAnswers": [
+      "1978",
+      "1980",
+      "1974"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the name of the song by Beyonc&eacute; and Alejandro Fern&aacute;ndez released in 2007?",
+    "correctAnswer": "Amor Gitano",
+    "incorrectAnswers": [
+      "La ultima vez",
+      "Rocket",
+      "Hasta Dondes Estes"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In the Pok&eacute;mon series, what is Palkia&#039;s hidden ability?",
+    "correctAnswer": "Telepathy",
+    "incorrectAnswers": [
+      "Pressure",
+      "Water Bubble",
+      "Hydration"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "&quot;The Potato Sack&quot; was a collection of indie games released on Steam in 2011 as a promotion for which game?",
+    "correctAnswer": "Portal 2",
+    "incorrectAnswers": [
+      "Left 4 Dead 2",
+      "Half-Life 3",
+      "Dota 2"
+    ]
+  },
+  {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "hard",
+    "question": "The chemical element Lithium is named after the country of Lithuania.",
+    "correctAnswer": "False",
+    "incorrectAnswers": [
+      "True"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In the &quot;Ace Attorney&quot; series, who was the truly responsible of the forging of the autopsy report of the pivotal IS-7 incident?",
+    "correctAnswer": "Bansai Ichiyanagi",
+    "incorrectAnswers": [
+      "Manfred Von Karma",
+      "Gregory Edgeworth",
+      "Tateyuki Shigaraki"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "Hungary is the only country in the world beginning with H.",
+    "correctAnswer": "False",
+    "incorrectAnswers": [
+      "True"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which of the following songs did Elton John perform following Princess Diane&#039;s passing?",
+    "correctAnswer": "Candles in the Wind",
+    "incorrectAnswers": [
+      "I Guess That&#039;s Why They Call It The Blues",
+      "Your Song",
+      "Island Girl"
+    ]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "The dish Fugu, is made from what family of fish?",
+    "correctAnswer": "Pufferfish",
+    "incorrectAnswers": [
+      "Bass",
+      "Salmon",
+      "Mackerel"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Where did the British Boy Band &quot;Bros&quot; come from?",
+    "correctAnswer": "Camberley",
+    "incorrectAnswers": [
+      "Guildford",
+      "Aldershot",
+      "Bagshot"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "In the Season One Championship of &quot;League of Legends&quot;, the highest achievable rank was Diamond.",
+    "correctAnswer": "False",
+    "incorrectAnswers": [
+      "True"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "Michael Jackson wrote The Simpsons song &quot;Do the Bartman&quot;.",
+    "correctAnswer": "False",
+    "incorrectAnswers": [
+      "True"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "If someone said &quot;you are olid&quot;, what would they mean?",
+    "correctAnswer": "You smell extremely unpleasant.",
+    "incorrectAnswers": [
+      "You are out of shape/weak.",
+      "Your appearance is repulsive.",
+      "You are incomprehensible/an idiot."
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which band recorded the album &quot;Parallel Lines&quot;?",
+    "correctAnswer": "Blondie",
+    "incorrectAnswers": [
+      "Paramore",
+      "Coldplay",
+      "The Police"
+    ]
+  },
+  {
+    "category": "Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What character in the Winnie the Pooh films was added by Disney and does not appear in the original books?",
+    "correctAnswer": "Gopher",
+    "incorrectAnswers": [
+      "Tigger",
+      "Heffalumps",
+      "Rabbit"
+    ]
+  },
+  {
+    "category": "Sports",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Why was The Green Monster at Fenway Park was originally built?",
+    "correctAnswer": "To prevent viewing games from outside the park.",
+    "incorrectAnswers": [
+      "To make getting home runs harder.",
+      "To display advertisements.",
+      "To provide extra seating."
+    ]
+  },
+  {
+    "category": "Entertainment: Cartoon & Animations",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Snagglepuss was part of the Yogi Yahooies in the 1977 show Scooby&#039;s All-Star Laff-a-Lympics.",
+    "correctAnswer": "False",
+    "incorrectAnswers": [
+      "True"
+    ]
+  },
+  {
+    "category": "Entertainment: Music",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "A Facebook campaign placed Rage Against The Machine&#039;s &quot;Killing in the Name Of&quot; as the UK Christmas Number 1 in 2009.",
+    "correctAnswer": "True",
+    "incorrectAnswers": [
+      "False"
+    ]
+  },
+  {
+    "category": "Entertainment: Books",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which author co-wrote &quot;The Communist Manifesto&quot; alongside Karl Marx?",
+    "correctAnswer": "Friedrich Engels",
+    "incorrectAnswers": [
+      "Robert Owen",
+      "Alexander Kerensky",
+      "Paul Lafargue"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "The commercial UK channel ITV stands for &quot;International Television&quot;.",
+    "correctAnswer": "False",
+    "incorrectAnswers": [
+      "True"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In &quot;Battle Cats&quot;, what is Moneko / MISS Moneko&#039;s critical percentage rate?",
+    "correctAnswer": "15%",
+    "incorrectAnswers": [
+      "20%",
+      "10%",
+      "25%"
+    ]
+  }
+]
