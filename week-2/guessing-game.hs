@@ -8,27 +8,19 @@ import Control.Monad
 import qualified Data.ByteString.Lazy as B
 import Network.HTTP.Conduit (simpleHttp)
 import GHC.Generics
+import System.Random
+import System.IO.Unsafe
 
 data Question = 
-  Question { category          :: !Text
-            , difficulty       :: !Text
-            , question         :: !Text
-            , correctAnswer    :: !Text
-            , incorrectAnswers :: [Text]
+  Question { category          :: !String
+            , difficulty       :: !String
+            , content          :: !String
+            , correctAnswer    :: !String
+            , incorrectAnswers :: [String]
             } deriving (Show, Generic)
 
 instance FromJSON Question
 instance ToJSON Question
-
--- this is my attempt of fetching the questions from
--- a public API. I believe I could not do it because
--- they are coming inside a "results" object and I could
--- not find a way to parse that response
--- jsonURL :: String
--- jsonURL = "https://opentdb.com/api.php?amount=1"
-
--- getJSON :: IO B.ByteString
--- getJSON = simpleHttp jsonURL
 
 jsonFile :: FilePath
 jsonFile = "questions.json"
@@ -44,8 +36,33 @@ main = do
   d <- fetchQuestions
   case d of
     Left err -> putStrLn err
-    Right questions -> print $ displayQuestion questions
+    Right questions -> do
+      let chosenQuestion = questions !! getRandomInt 0 30
+      displayQuestion chosenQuestion
+      mkGuess chosenQuestion
+      print "End game"
 
-displayQuestion :: Question
-displayQuestion questions = 
-  questions !! unsafePerformIO (getStdRandom (randomR (0, length questions)))
+checkAnswer :: Question -> String -> IO ()
+checkAnswer question answer
+  | answer == (correctAnswer question) = displayResult (True, correctAnswer question)
+  | otherwise                          = displayResult (False, correctAnswer question)
+
+mkGuess :: Question -> IO ()
+mkGuess question = do
+  putStrLn "  Enter your Answer: "
+  answer <- getLine
+  checkAnswer question answer
+
+displayResult :: (Bool, String) -> IO ()
+displayResult (hasWon, correctAnswer) =
+  do if hasWon
+      then putStrLn "You are correct"
+      else putStrLn "Wrong."
+
+displayQuestion :: Question -> IO ()
+displayQuestion question = do
+  print (content question)
+  print ((incorrectAnswers question) ++ ([correctAnswer question]))
+
+getRandomInt :: Int -> Int -> Int
+getRandomInt rangeStart rangeEnd = unsafePerformIO (getStdRandom (randomR (rangeStart, rangeEnd)))
