@@ -6,7 +6,6 @@ import Data.Text
 import Control.Applicative
 import Control.Monad
 import qualified Data.ByteString.Lazy as B
-import Network.HTTP.Conduit (simpleHttp)
 import GHC.Generics
 import System.Random
 import System.IO.Unsafe
@@ -37,7 +36,7 @@ main = do
   case d of
     Left err -> putStrLn err
     Right questions -> do
-      let chosenQuestion = questions !! getRandomInt 0 30
+      let chosenQuestion = questions !! getRandomInt 0 (Prelude.length questions)
       displayQuestion chosenQuestion
       mkGuess chosenQuestion
       print "End game"
