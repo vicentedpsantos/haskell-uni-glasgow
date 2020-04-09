@@ -27,5 +27,6 @@ starman :: Int -> IO ()
 starman numberOfChances =
   do
     let availableWords = ["fish", "butter", "pepper", "berries", "stonks"]
-    let word' = availableWords !! unsafePerformIO (getStdRandom (randomR (0, length availableWords)))
+    randomWord <- getStdRandom (randomR (0, length availableWords))
+    let word' = availableWords !! randomWord
     turn word' ['-' | x <- word'] numberOfChances
