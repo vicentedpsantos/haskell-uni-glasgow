@@ -1,11 +1,11 @@
 #### Keep your programs tidy
 
 ##### Scoping
-Scoping i an important way to keep your programs tidy. It involves limiting the reigon of the program in which names exist an can be used.
+Scoping is an important way to keep your programs tidy. It involves limiting the region of the program in which names exist and can be used.
 
 ###### Let clauses
 
-In _Haskell_ a __let__ expression provides local scope. A let expression has a series of equations defining variable vlaues and a final expression (after the __in__ key word). E.g.:
+In _Haskell_ a __let__ expression provides local scope. A let expression has a series of equations defining variable values and a final expression (after the __in__ key word). E.g.:
 
 ```haskell
 let x = 2
@@ -19,7 +19,7 @@ let x = 2
 in x + y
 ```
 
-Sometimes the value of a varialbe might depend on another variable being defined in the same let statement, as such:
+Sometimes the value of a variable might depend on another variable being defined in the same __let__ statement, as such:
 
 ```haskell
 journeyCost :: Float -> Float -> Float
