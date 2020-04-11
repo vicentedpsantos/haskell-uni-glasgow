@@ -8,3 +8,6 @@
 ##### Type Theory
 - [Thorsten Altenkirch: Computerphile - Type Theory](https://www.youtube.com/watch?v=qT8NyyRgLDQ)
 
+##### Category Theory
+- [Eugenia Cheng: Category Theory in Life](https://www.youtube.com/watch?v=ho7oagHeqNc)
+- [Philip Wadler: Category Theory for the Working Hacker](https://www.youtube.com/watch?v=V10hzjgoklA)
