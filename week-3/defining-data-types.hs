@@ -12,7 +12,7 @@ map convert [1..5] -- [One, Two, Many, Many, Many]
 
 -- 
 
-data CricketScore = Score [Char] Int Int deriving Show
+data CricketsScore = Score [Char] Int Int deriving Show
 
 let x = Score "New Zealand" 350 4
 
